@@ -1,0 +1,57 @@
+.jewel {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+.jewel td {
+  border: 1px solid black;
+}
+.jewel td:nth-child(3) {
+  text-align: center;
+}
+
+/*task Frame */
+/*method 1*/
+.box {
+  background-color: #86328c;
+  color: aliceblue;
+  padding: 1em;
+  border: 6px double #fff;
+}
+/*method 2*/
+.tabl {
+  width: 900px;
+  height: 70px;
+  background-color: rgb(189, 127, 255);
+  color: #fff;
+  padding-left: 1em;
+  border: 6px double #fff;
+}
+/*method 3* корявый!!!!*/
+span {
+  display: inline-block;
+  width: 900px;
+  height: 70px;
+  background-color: rgb(42, 165, 99);
+  color: aliceblue;
+  position: relative;
+  text-align: left;
+  border: 6px double #fff;
+}
+div {
+  position: absolute;
+  top: 40%;
+  padding-left: 1em;
+}
+/*task 2360tabl*/
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: aquamarine;
+
+}
+th, td{
+  border: 2px solid #fff;
+  padding: 7px;
+}
+
