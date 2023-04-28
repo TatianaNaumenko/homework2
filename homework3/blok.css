@@ -1,0 +1,26 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  border-radius: 100px;
+}
+.oval {
+  width: 300px;
+  height: 150px;
+  background-color: chartreuse;
+  border-radius: 150px/75px;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-top: 200px solid red;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-bottom: 400px solid green;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+}
